@@ -1,27 +1,19 @@
 # Project Name
 
-Brief description of your project.
-
-## Table of Contents
-
-- [Setup](#setup)
-  - [Client](#client-setup)
-  - [Server](#server-setup)
-- [Usage](#usage)
-- [Accessing the Application](#accessing-the-application)
-- [Contributing](#contributing)
-- [License](#license)
+This project consists of a client and server application.
 
 ## Setup
 
+To run this project, you'll need to set up both the client and server applications.
+
 ### Client Setup
 
-1. Open a terminal.
+1. Open a command prompt (CMD).
 
-2. Navigate to your preferred directory:
+2. Navigate to your Desktop directory:
 
     ```bash
-    cd path/to/your/directory
+    cd Desktop
     ```
 
 3. Clone the client repository:
@@ -36,13 +28,13 @@ Brief description of your project.
     cd nosql_project/client
     ```
 
-5. Install dependencies:
+5. Install client dependencies:
 
     ```bash
     npm install
     ```
 
-6. Start the client:
+6. Start the client application:
 
     ```bash
     npm start
@@ -50,12 +42,12 @@ Brief description of your project.
 
 ### Server Setup
 
-1. Open another terminal.
+1. Open another command prompt (CMD).
 
-2. Navigate to your preferred directory:
+2. Navigate to your Desktop directory:
 
     ```bash
-    cd path/to/your/directory
+    cd Desktop
     ```
 
 3. Navigate to the server directory:
@@ -64,29 +56,25 @@ Brief description of your project.
     cd nosql_project/server
     ```
 
-4. Install dependencies:
+4. Install server dependencies:
 
     ```bash
     npm install
     ```
 
-5. Start the server:
+5. Start the server application:
 
     ```bash
     npm start
     ```
 
-## Usage
-
-Describe how to use your application here.
-
 ## Accessing the Application
 
-Once both the client and server are running, you can access the client application by navigating to [http://localhost:3000/](http://localhost:3000/) in your web browser.
+Once both the client and server applications are running, you can access the client application by opening a web browser and navigating to [http://localhost:3000/](http://localhost:3000/).
 
 ## Contributing
 
-Contributions are welcome. Please follow our [Contribution Guidelines](CONTRIBUTING.md).
+Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
 ## License
 
