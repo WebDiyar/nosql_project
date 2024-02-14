@@ -65,7 +65,7 @@ To run this project, you'll need to set up both the client and server applicatio
 5. Start the server application:
 
     ```bash
-    npm start
+    npm start || nodemon app.js || node app.js
     ```
 
 ## Accessing the Application
