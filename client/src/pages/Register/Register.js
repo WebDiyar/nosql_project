@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Select from 'react-select';
-import Spiner from "../../components/Spinner/Spinner"
+import Spiner from "../../components/Spiner/Spiner"
 import { registerfunc } from "../../services/Apis"
 import { ToastContainer, toast } from "react-toastify"
 import { useNavigate } from "react-router-dom"

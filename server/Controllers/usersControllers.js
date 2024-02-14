@@ -34,7 +34,6 @@ exports.userpost = async (req, res) => {
     }
 };
 
-
 // usersget
 exports.userget = async (req, res) => {
 

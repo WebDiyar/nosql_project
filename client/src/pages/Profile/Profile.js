@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Card from "react-bootstrap/Card"
 import Row from 'react-bootstrap/esm/Row'
 import { useParams } from 'react-router-dom'
-import Spiner from "../../components/Spinner/Spinner"
+import Spiner from "../../components/Spiner/Spiner"
 import { singleUsergetfunc } from "../../services/Apis"
 import { BASE_URL } from '../../services/helper'
 import moment from "moment"

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Select from 'react-select';
-import Spiner from "../../components/Spinner/Spinner"
+import Spiner from "../../components/Spiner/Spiner"
 import { singleUsergetfunc, editfunc } from '../../services/Apis';
 import { useNavigate, useParams } from 'react-router-dom';
 import { updateData } from '../../components/context/ContextProvider';

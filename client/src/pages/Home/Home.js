@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Tables from '../../components/Tables/Tables';
-import Spiner from "../../components/Spinner/Spinner"
+import Spiner from "../../components/Spiner/Spiner"
 import { useNavigate } from "react-router-dom"
 import { addData, dltdata, updateData } from '../../components/context/ContextProvider';
 import { usergetfunc, deletfunc, exporttocsvfunc } from "../../services/Apis";
@@ -128,7 +128,7 @@ const Home = () => {
 
           <div className="filter_div mt-5 d-flex justify-content-between flex-wrap">
             <div className="export_csv">
-              <Button className='export_btn' style={{padding: '10px 20px'}}>Table</Button>
+              <Button className='export_btn' onClick={exportuser}>Export To Csv</Button>
             </div>
             <div className="filter_gender">
               <div className="filter">

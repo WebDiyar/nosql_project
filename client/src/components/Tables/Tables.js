@@ -34,7 +34,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
                 <thead className='thead-dark'>
                   <tr className='table-dark'>
                     <th>ID</th>
-                    <th>Full Name</th>
+                    <th>FullName</th>
                     <th>Email</th>
                     <th>Gender</th>
                     <th>&nbsp;&nbsp;&nbsp;Status</th>
@@ -47,7 +47,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
                     userdata.length > 0 ? userdata.map((element, index) => {
                       return (
                         <>
-                          <tr>
+                          <tr key={index+1}>
                             <td>{index + 1 + (page - 1) * 4}</td>
                             <td>{element.fname + ' ' + element.lname}</td>
                             <td>{element.email}</td>
